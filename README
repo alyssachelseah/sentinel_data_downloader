@@ -1,0 +1,27 @@
+Automated Sentinel Satellite Data Downloader 07/18/2017
+
+Description:
+--------------------------------------------------------------------------------
+- An automated downloader from the satellite data of Sentinel. It uses a script 
+in PHP that calls the Wget() function and runs through Cron as its scheduler.
+
+
+
+Requirements:
+--------------------------------------------------------------------------------
+- PHP 5.3 or higher
+- Cron 
+
+
+
+Running under Ubuntu 16.04.1 LTS
+--------------------------------------------------------------------------------
+- $ sudo php sentinelDownloader.php /download/path <x_coordinate> <y_coordinate>
+
+
+
+
+
+==========================================================================
+E-mail: accruz@up.edu.ph
+		mnblaquera@up.edu.ph
